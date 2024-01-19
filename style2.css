@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.cards{
+    
+    width: 1000px;
+    height: 500px;
+
+    
+}
+.card{
+    width: 240px;
+    height: 300px;
+    background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+}
+.card1{
+    
+background-image: url(mountain.jpg);
+
+
+
+}
+
+.container {
+    
+    width:100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardinfo{
+    
+    color: white;
+    transform:translateY(240px) ;
+    text-align: center;
+    height: 100%;;
+    background-color: rgba(255, 255, 255, 0); /* Light white color with initial opacity 0 */
+    transition: background-color 0.5s ease;
+   
+}
+.cardinfo>button{
+    background-color: black;
+    color: white;
+}
+.cardinfo>h1{
+display: inline-block;
+margin:20px 0 20px 15px;
+}
+.card:hover .cardinfo{
+    transform: translateY(0px);
+    transition: 5s;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+.card2{
+    
+background-image: url(beach.jpg);
+
+
+
+}
+
+.card3{
+    
+background-image: url(desert.jpg);
+
+
+
+}
+
+.card4{
+   
+background-image: url(galery.jpg);
+
+
+
+}
